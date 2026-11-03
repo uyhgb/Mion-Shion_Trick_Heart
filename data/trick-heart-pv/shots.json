@@ -1,0 +1,5120 @@
+{
+ "schemaVersion": 1,
+ "what": "Measured facts about the official PV of MIMI「トリックハート」feat. 重音テトSV (illustration/animation 3774.). Timing data only — no images, no lyrics.",
+ "sourceVideo": {
+  "note": "Obtain the PV yourself. These numbers were measured on a 1920x1080, 24/1 fps, 3768-frame, 157.0 s H.264 file with AAC 48 kHz stereo (157.013 s). Verify your copy before reusing frame numbers.",
+  "sha256OfMeasuredFile": "8c6cb0e9472b973b32f400a75ac23f2c2f5da388f1f03fa7b120661785eeb745",
+  "frames": 3768,
+  "fps": "24/1",
+  "width": 1920,
+  "height": 1080
+ },
+ "frameConvention": "zero-based integer frames, half-open [start,end)",
+ "sourceRoles": {
+  "magician": "drill twin-tails, top hat with feather, red blazer, white gloves with orange cuffs, black shorts, asymmetric legwear (own right: striped over-knee; own left: knee sock + separate thigh garter), red boots with white sawtooth cuffs, cheek heart mark",
+  "casual": "hair down, oversized grey hoodie/cardigan over yellow top, orange-yellow shoes; from f3543 changes to yellow jacket + crossbody bag, and from f3584 has drill hair tied with a white feather"
+ },
+ "readableCardFaces": [
+  {
+   "rank": "heart A",
+   "range": [
+    1036,
+    1059
+   ],
+   "holder": "magician, white glove",
+   "shot": "s026"
+  },
+  {
+   "rank": "heart J",
+   "range": [
+    2455,
+    2472
+   ],
+   "holder": "casual, bare hand",
+   "shot": "s056"
+  },
+  {
+   "rank": "heart A",
+   "range": [
+    3698,
+    3768
+   ],
+   "holder": "casual, card holder on bag",
+   "shot": "s078"
+  }
+ ],
+ "boilSummary": "Most held shots alternate two redraws (A/B) of the whole picture every 6 frames; line displacement between redraws ~1.3-3.2 px median at 1080p. Some shots differ (independent layer clocks, extra redraws) — always use per-shot data.",
+ "shots": [
+  {
+   "shotId": "s001",
+   "startFrame": 0,
+   "endFrameExclusive": 86,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f0 暗红背景有效首帧；f1 白闪形状入场；f13 卡形出现；f20 蓝背与纸框可见；f22 入场拉伸末态；f23 白手套清晰握牌；此前为入场变形",
+   "props": "card-back,paper-frame",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     27,
+     33,
+     39,
+     45,
+     51,
+     57,
+     63,
+     69,
+     75,
+     81
+    ],
+    "holds": [
+     {
+      "startFrame": 0,
+      "endFrameExclusive": 27,
+      "phase": "A"
+     },
+     {
+      "startFrame": 27,
+      "endFrameExclusive": 33,
+      "phase": "B"
+     },
+     {
+      "startFrame": 33,
+      "endFrameExclusive": 39,
+      "phase": "A"
+     },
+     {
+      "startFrame": 39,
+      "endFrameExclusive": 45,
+      "phase": "B"
+     },
+     {
+      "startFrame": 45,
+      "endFrameExclusive": 51,
+      "phase": "A"
+     },
+     {
+      "startFrame": 51,
+      "endFrameExclusive": 57,
+      "phase": "B"
+     },
+     {
+      "startFrame": 57,
+      "endFrameExclusive": 63,
+      "phase": "A"
+     },
+     {
+      "startFrame": 63,
+      "endFrameExclusive": 69,
+      "phase": "B"
+     },
+     {
+      "startFrame": 69,
+      "endFrameExclusive": 75,
+      "phase": "A"
+     },
+     {
+      "startFrame": 75,
+      "endFrameExclusive": 81,
+      "phase": "B"
+     },
+     {
+      "startFrame": 81,
+      "endFrameExclusive": 86,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     23
+    ]
+   }
+  },
+  {
+   "shotId": "s002",
+   "startFrame": 86,
+   "endFrameExclusive": 163,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "散发角色头像框、睁眼张嘴",
+   "props": "portrait-frame",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     88,
+     94,
+     100,
+     106,
+     112,
+     118,
+     124,
+     130,
+     136,
+     142,
+     148,
+     154,
+     160
+    ],
+    "holds": [
+     {
+      "startFrame": 86,
+      "endFrameExclusive": 88,
+      "phase": "A"
+     },
+     {
+      "startFrame": 88,
+      "endFrameExclusive": 94,
+      "phase": "B"
+     },
+     {
+      "startFrame": 94,
+      "endFrameExclusive": 100,
+      "phase": "A"
+     },
+     {
+      "startFrame": 100,
+      "endFrameExclusive": 106,
+      "phase": "B"
+     },
+     {
+      "startFrame": 106,
+      "endFrameExclusive": 112,
+      "phase": "A"
+     },
+     {
+      "startFrame": 112,
+      "endFrameExclusive": 118,
+      "phase": "B"
+     },
+     {
+      "startFrame": 118,
+      "endFrameExclusive": 124,
+      "phase": "A"
+     },
+     {
+      "startFrame": 124,
+      "endFrameExclusive": 130,
+      "phase": "B"
+     },
+     {
+      "startFrame": 130,
+      "endFrameExclusive": 136,
+      "phase": "A"
+     },
+     {
+      "startFrame": 136,
+      "endFrameExclusive": 142,
+      "phase": "B"
+     },
+     {
+      "startFrame": 142,
+      "endFrameExclusive": 148,
+      "phase": "A"
+     },
+     {
+      "startFrame": 148,
+      "endFrameExclusive": 154,
+      "phase": "B"
+     },
+     {
+      "startFrame": 154,
+      "endFrameExclusive": 160,
+      "phase": "A"
+     },
+     {
+      "startFrame": 160,
+      "endFrameExclusive": 163,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s003",
+   "startFrame": 163,
+   "endFrameExclusive": 240,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f163 回到握牌手特写；f169 弯折；f175 扭曲加强；f181 扭曲下一态；f187 卷曲；f193 条带状拉丝；f199 临碎状态；f205 手指打开；牌片分离；f212 进一步张手；f218 完整牌不再可见；残片；f224 空掌",
+   "props": "card-back,fragments,paper-frame",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     169,
+     175,
+     181,
+     187,
+     193,
+     199,
+     232
+    ],
+    "holds": [
+     {
+      "startFrame": 163,
+      "endFrameExclusive": 169,
+      "phase": "A"
+     },
+     {
+      "startFrame": 169,
+      "endFrameExclusive": 175,
+      "phase": "B"
+     },
+     {
+      "startFrame": 175,
+      "endFrameExclusive": 181,
+      "phase": "A"
+     },
+     {
+      "startFrame": 181,
+      "endFrameExclusive": 187,
+      "phase": "B"
+     },
+     {
+      "startFrame": 187,
+      "endFrameExclusive": 193,
+      "phase": "A"
+     },
+     {
+      "startFrame": 193,
+      "endFrameExclusive": 199,
+      "phase": "B"
+     },
+     {
+      "startFrame": 199,
+      "endFrameExclusive": 232,
+      "phase": "A"
+     },
+     {
+      "startFrame": 232,
+      "endFrameExclusive": 240,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": [
+     205,
+     212,
+     218,
+     224
+    ]
+   }
+  },
+  {
+   "shotId": "s004",
+   "startFrame": 240,
+   "endFrameExclusive": 325,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "魔术师站左、散发角色坐右",
+   "props": "hat",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     246,
+     252,
+     258,
+     264,
+     270,
+     276,
+     282,
+     288,
+     294,
+     300,
+     306,
+     312,
+     318,
+     324
+    ],
+    "holds": [
+     {
+      "startFrame": 240,
+      "endFrameExclusive": 246,
+      "phase": "A"
+     },
+     {
+      "startFrame": 246,
+      "endFrameExclusive": 252,
+      "phase": "B"
+     },
+     {
+      "startFrame": 252,
+      "endFrameExclusive": 258,
+      "phase": "A"
+     },
+     {
+      "startFrame": 258,
+      "endFrameExclusive": 264,
+      "phase": "B"
+     },
+     {
+      "startFrame": 264,
+      "endFrameExclusive": 270,
+      "phase": "A"
+     },
+     {
+      "startFrame": 270,
+      "endFrameExclusive": 276,
+      "phase": "B"
+     },
+     {
+      "startFrame": 276,
+      "endFrameExclusive": 282,
+      "phase": "A"
+     },
+     {
+      "startFrame": 282,
+      "endFrameExclusive": 288,
+      "phase": "B"
+     },
+     {
+      "startFrame": 288,
+      "endFrameExclusive": 294,
+      "phase": "A"
+     },
+     {
+      "startFrame": 294,
+      "endFrameExclusive": 300,
+      "phase": "B"
+     },
+     {
+      "startFrame": 300,
+      "endFrameExclusive": 306,
+      "phase": "A"
+     },
+     {
+      "startFrame": 306,
+      "endFrameExclusive": 312,
+      "phase": "B"
+     },
+     {
+      "startFrame": 312,
+      "endFrameExclusive": 318,
+      "phase": "A"
+     },
+     {
+      "startFrame": 318,
+      "endFrameExclusive": 324,
+      "phase": "B"
+     },
+     {
+      "startFrame": 324,
+      "endFrameExclusive": 325,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s005",
+   "startFrame": 325,
+   "endFrameExclusive": 362,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f343 下方头像加入；睁眼圆嘴",
+   "props": "portrait-frame,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     331,
+     337,
+     343,
+     349,
+     355,
+     361
+    ],
+    "holds": [
+     {
+      "startFrame": 325,
+      "endFrameExclusive": 331,
+      "phase": "A"
+     },
+     {
+      "startFrame": 331,
+      "endFrameExclusive": 337,
+      "phase": "B"
+     },
+     {
+      "startFrame": 337,
+      "endFrameExclusive": 343,
+      "phase": "A"
+     },
+     {
+      "startFrame": 343,
+      "endFrameExclusive": 349,
+      "phase": "B"
+     },
+     {
+      "startFrame": 349,
+      "endFrameExclusive": 355,
+      "phase": "A"
+     },
+     {
+      "startFrame": 355,
+      "endFrameExclusive": 361,
+      "phase": "B"
+     },
+     {
+      "startFrame": 361,
+      "endFrameExclusive": 362,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     343
+    ]
+   }
+  },
+  {
+   "shotId": "s006",
+   "startFrame": 362,
+   "endFrameExclusive": 393,
+   "sourceRoles": [],
+   "sourceAction": "设计文字空镜",
+   "props": "design-text",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s007",
+   "startFrame": 393,
+   "endFrameExclusive": 444,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "双方伸手相向",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     399,
+     405,
+     411,
+     417,
+     423,
+     429,
+     435,
+     441
+    ],
+    "holds": [
+     {
+      "startFrame": 393,
+      "endFrameExclusive": 399,
+      "phase": "A"
+     },
+     {
+      "startFrame": 399,
+      "endFrameExclusive": 405,
+      "phase": "B"
+     },
+     {
+      "startFrame": 405,
+      "endFrameExclusive": 411,
+      "phase": "A"
+     },
+     {
+      "startFrame": 411,
+      "endFrameExclusive": 417,
+      "phase": "B"
+     },
+     {
+      "startFrame": 417,
+      "endFrameExclusive": 423,
+      "phase": "A"
+     },
+     {
+      "startFrame": 423,
+      "endFrameExclusive": 429,
+      "phase": "B"
+     },
+     {
+      "startFrame": 429,
+      "endFrameExclusive": 435,
+      "phase": "A"
+     },
+     {
+      "startFrame": 435,
+      "endFrameExclusive": 441,
+      "phase": "B"
+     },
+     {
+      "startFrame": 441,
+      "endFrameExclusive": 444,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s008",
+   "startFrame": 444,
+   "endFrameExclusive": 449,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "散发角色起身脚部",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     445
+    ],
+    "holds": [
+     {
+      "startFrame": 444,
+      "endFrameExclusive": 445,
+      "phase": "A"
+     },
+     {
+      "startFrame": 445,
+      "endFrameExclusive": 449,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s009",
+   "startFrame": 449,
+   "endFrameExclusive": 454,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f449 扶帽、开口",
+   "props": "hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 449,
+      "endFrameExclusive": 454,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s010",
+   "startFrame": 454,
+   "endFrameExclusive": 459,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "散发角色背肩与伸手",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 454,
+      "endFrameExclusive": 459,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s011",
+   "startFrame": 459,
+   "endFrameExclusive": 464,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f459 两手相握",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 459,
+      "endFrameExclusive": 464,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s012",
+   "startFrame": 464,
+   "endFrameExclusive": 472,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "牵手双人全身",
+   "props": "hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 464,
+      "endFrameExclusive": 472,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s013",
+   "startFrame": 472,
+   "endFrameExclusive": 534,
+   "sourceRoles": [],
+   "sourceAction": "硬币与设计文字",
+   "props": "coin,design-text",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s014",
+   "startFrame": 534,
+   "endFrameExclusive": 546,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f534 双肩手部近景、半睁；f537 闭眼握拳",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     540
+    ],
+    "holds": [
+     {
+      "startFrame": 534,
+      "endFrameExclusive": 540,
+      "phase": "A"
+     },
+     {
+      "startFrame": 540,
+      "endFrameExclusive": 546,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": [
+     537
+    ]
+   }
+  },
+  {
+   "shotId": "s015",
+   "startFrame": 546,
+   "endFrameExclusive": 591,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f546 收指；f549 抬食指；f552 食指竖立；f554 弯指；f556 半开掌；f558 全开掌",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 546,
+      "endFrameExclusive": 591,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     549,
+     552,
+     554,
+     556,
+     558,
+     560
+    ]
+   }
+  },
+  {
+   "shotId": "s016",
+   "startFrame": 591,
+   "endFrameExclusive": 621,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f591 另一侧收指；f594 抬指；f596 竖指；f599 弯指；f602 半开；f605 全开；f608 掌心硬币清晰",
+   "props": "coin",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 591,
+      "endFrameExclusive": 621,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     594,
+     596,
+     599,
+     602,
+     605,
+     608
+    ]
+   }
+  },
+  {
+   "shotId": "s017",
+   "startFrame": 621,
+   "endFrameExclusive": 704,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f621 持杖指向托币掌；f625 杖点掌心；f627 硬币变蝶；f631 蝴蝶到眼前遮脸；f632 转头、单眼闭合；f639 双眼睁、展开手",
+   "props": "wand,coin,butterfly,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     627,
+     635,
+     645,
+     651,
+     657,
+     663,
+     669,
+     675,
+     681,
+     687,
+     693,
+     699
+    ],
+    "holds": [
+     {
+      "startFrame": 621,
+      "endFrameExclusive": 627,
+      "phase": "A"
+     },
+     {
+      "startFrame": 627,
+      "endFrameExclusive": 635,
+      "phase": "B"
+     },
+     {
+      "startFrame": 635,
+      "endFrameExclusive": 645,
+      "phase": "A"
+     },
+     {
+      "startFrame": 645,
+      "endFrameExclusive": 651,
+      "phase": "B"
+     },
+     {
+      "startFrame": 651,
+      "endFrameExclusive": 657,
+      "phase": "A"
+     },
+     {
+      "startFrame": 657,
+      "endFrameExclusive": 663,
+      "phase": "B"
+     },
+     {
+      "startFrame": 663,
+      "endFrameExclusive": 669,
+      "phase": "A"
+     },
+     {
+      "startFrame": 669,
+      "endFrameExclusive": 675,
+      "phase": "B"
+     },
+     {
+      "startFrame": 675,
+      "endFrameExclusive": 681,
+      "phase": "A"
+     },
+     {
+      "startFrame": 681,
+      "endFrameExclusive": 687,
+      "phase": "B"
+     },
+     {
+      "startFrame": 687,
+      "endFrameExclusive": 693,
+      "phase": "A"
+     },
+     {
+      "startFrame": 693,
+      "endFrameExclusive": 699,
+      "phase": "B"
+     },
+     {
+      "startFrame": 699,
+      "endFrameExclusive": 704,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     625,
+     632,
+     639
+    ]
+   }
+  },
+  {
+   "shotId": "s018",
+   "startFrame": 704,
+   "endFrameExclusive": 744,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f704 横框内半睁笑",
+   "props": "portrait-frame,butterfly",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     710,
+     716,
+     722,
+     728,
+     734,
+     740
+    ],
+    "holds": [
+     {
+      "startFrame": 704,
+      "endFrameExclusive": 710,
+      "phase": "A"
+     },
+     {
+      "startFrame": 710,
+      "endFrameExclusive": 716,
+      "phase": "B"
+     },
+     {
+      "startFrame": 716,
+      "endFrameExclusive": 722,
+      "phase": "A"
+     },
+     {
+      "startFrame": 722,
+      "endFrameExclusive": 728,
+      "phase": "B"
+     },
+     {
+      "startFrame": 728,
+      "endFrameExclusive": 734,
+      "phase": "A"
+     },
+     {
+      "startFrame": 734,
+      "endFrameExclusive": 740,
+      "phase": "B"
+     },
+     {
+      "startFrame": 740,
+      "endFrameExclusive": 744,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s019",
+   "startFrame": 744,
+   "endFrameExclusive": 787,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f744 横框内睁眼张嘴",
+   "props": "portrait-frame,butterfly",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     750,
+     756,
+     762,
+     768,
+     774,
+     780,
+     786
+    ],
+    "holds": [
+     {
+      "startFrame": 744,
+      "endFrameExclusive": 750,
+      "phase": "A"
+     },
+     {
+      "startFrame": 750,
+      "endFrameExclusive": 756,
+      "phase": "B"
+     },
+     {
+      "startFrame": 756,
+      "endFrameExclusive": 762,
+      "phase": "A"
+     },
+     {
+      "startFrame": 762,
+      "endFrameExclusive": 768,
+      "phase": "B"
+     },
+     {
+      "startFrame": 768,
+      "endFrameExclusive": 774,
+      "phase": "A"
+     },
+     {
+      "startFrame": 774,
+      "endFrameExclusive": 780,
+      "phase": "B"
+     },
+     {
+      "startFrame": 780,
+      "endFrameExclusive": 786,
+      "phase": "A"
+     },
+     {
+      "startFrame": 786,
+      "endFrameExclusive": 787,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s020",
+   "startFrame": 787,
+   "endFrameExclusive": 849,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f787 切背影；脸不可见",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 787,
+      "endFrameExclusive": 849,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     790,
+     796,
+     802,
+     808,
+     814,
+     820,
+     826,
+     832,
+     838,
+     844
+    ]
+   }
+  },
+  {
+   "shotId": "s021",
+   "startFrame": 849,
+   "endFrameExclusive": 862,
+   "sourceRoles": [],
+   "sourceAction": "f849 从帽内出现",
+   "props": "rabbit,hat",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s022",
+   "startFrame": 862,
+   "endFrameExclusive": 901,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f862 闪亮眼",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     868,
+     874,
+     880,
+     886,
+     892,
+     898
+    ],
+    "holds": [
+     {
+      "startFrame": 862,
+      "endFrameExclusive": 868,
+      "phase": "A"
+     },
+     {
+      "startFrame": 868,
+      "endFrameExclusive": 874,
+      "phase": "B"
+     },
+     {
+      "startFrame": 874,
+      "endFrameExclusive": 880,
+      "phase": "A"
+     },
+     {
+      "startFrame": 880,
+      "endFrameExclusive": 886,
+      "phase": "B"
+     },
+     {
+      "startFrame": 886,
+      "endFrameExclusive": 892,
+      "phase": "A"
+     },
+     {
+      "startFrame": 892,
+      "endFrameExclusive": 898,
+      "phase": "B"
+     },
+     {
+      "startFrame": 898,
+      "endFrameExclusive": 901,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s023",
+   "startFrame": 901,
+   "endFrameExclusive": 930,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f901 托兔、扶帽闭眼笑",
+   "props": "rabbit,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     907,
+     913,
+     919,
+     925
+    ],
+    "holds": [
+     {
+      "startFrame": 901,
+      "endFrameExclusive": 907,
+      "phase": "A"
+     },
+     {
+      "startFrame": 907,
+      "endFrameExclusive": 913,
+      "phase": "B"
+     },
+     {
+      "startFrame": 913,
+      "endFrameExclusive": 919,
+      "phase": "A"
+     },
+     {
+      "startFrame": 919,
+      "endFrameExclusive": 925,
+      "phase": "B"
+     },
+     {
+      "startFrame": 925,
+      "endFrameExclusive": 930,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s024",
+   "startFrame": 930,
+   "endFrameExclusive": 982,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f930 托兔、张嘴惊讶；f939 兔遮脸；闭眼笑；f948 兔移向头旁；单眼闭、嘴开；f958 兔在头顶；双眼开、嘴闭；f964 双眼闭；f969 双眼开",
+   "props": "rabbit",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     975,
+     980
+    ],
+    "holds": [
+     {
+      "startFrame": 930,
+      "endFrameExclusive": 975,
+      "phase": "A"
+     },
+     {
+      "startFrame": 975,
+      "endFrameExclusive": 980,
+      "phase": "B"
+     },
+     {
+      "startFrame": 980,
+      "endFrameExclusive": 982,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     939,
+     948,
+     958,
+     964,
+     969
+    ]
+   }
+  },
+  {
+   "shotId": "s025",
+   "startFrame": 982,
+   "endFrameExclusive": 1036,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f1018 局部白手套进入画面；薄物不可据此认定牌面",
+   "props": "rabbit,thin-held-object",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     988,
+     994,
+     1000,
+     1006,
+     1012
+    ],
+    "holds": [
+     {
+      "startFrame": 982,
+      "endFrameExclusive": 988,
+      "phase": "A"
+     },
+     {
+      "startFrame": 988,
+      "endFrameExclusive": 994,
+      "phase": "B"
+     },
+     {
+      "startFrame": 994,
+      "endFrameExclusive": 1000,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1000,
+      "endFrameExclusive": 1006,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1006,
+      "endFrameExclusive": 1012,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1012,
+      "endFrameExclusive": 1036,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": [
+     1018
+    ]
+   }
+  },
+  {
+   "shotId": "s026",
+   "startFrame": 1036,
+   "endFrameExclusive": 1091,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1036 可辨识红心A正面；白手套持；f1059 A正面消失；两指立起；f1063 握拳；f1065 白烟；f1067 遮住手部；f1071 张手；f1073 白手套握胡萝卜；f1078 兔跃入；f1080 咬胡萝卜；f1082 剩短段；f1084 只余小块；f1086 胡萝卜消失、空手；f1088 前景兔擦屏",
+   "props": "card-A,carrot,rabbit,smoke",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 1036,
+      "endFrameExclusive": 1091,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     1059,
+     1063,
+     1068,
+     1071,
+     1073,
+     1082,
+     1084,
+     1086
+    ]
+   }
+  },
+  {
+   "shotId": "s027",
+   "startFrame": 1091,
+   "endFrameExclusive": 1154,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f1091 新镜背影被兔局部遮挡；f1093 擦屏结束；f1095 背转正、嘴闭；f1099 圆嘴、睁眼；f1103 半睁眼笑、嘴开；f1113 微笑闭嘴；f1118 闭眼露齿笑",
+   "props": "rabbit",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1108,
+     1124,
+     1129,
+     1134,
+     1139,
+     1149
+    ],
+    "holds": [
+     {
+      "startFrame": 1091,
+      "endFrameExclusive": 1108,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1108,
+      "endFrameExclusive": 1124,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1124,
+      "endFrameExclusive": 1129,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1129,
+      "endFrameExclusive": 1134,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1134,
+      "endFrameExclusive": 1139,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1139,
+      "endFrameExclusive": 1149,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1149,
+      "endFrameExclusive": 1154,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     1095,
+     1099,
+     1103,
+     1113,
+     1118
+    ]
+   }
+  },
+  {
+   "shotId": "s028",
+   "startFrame": 1154,
+   "endFrameExclusive": 1174,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1154 食指近脸、嘴开",
+   "props": "paper-frame",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1160,
+     1166,
+     1172
+    ],
+    "holds": [
+     {
+      "startFrame": 1154,
+      "endFrameExclusive": 1160,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1160,
+      "endFrameExclusive": 1166,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1166,
+      "endFrameExclusive": 1172,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1172,
+      "endFrameExclusive": 1174,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s029",
+   "startFrame": 1174,
+   "endFrameExclusive": 1208,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f1174 双拳、星眼",
+   "props": "",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1180,
+     1186,
+     1192,
+     1198,
+     1204
+    ],
+    "holds": [
+     {
+      "startFrame": 1174,
+      "endFrameExclusive": 1180,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1180,
+      "endFrameExclusive": 1186,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1186,
+      "endFrameExclusive": 1192,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1192,
+      "endFrameExclusive": 1198,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1198,
+      "endFrameExclusive": 1204,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1204,
+      "endFrameExclusive": 1208,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s030",
+   "startFrame": 1208,
+   "endFrameExclusive": 1224,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1209 气泡入；闭眼抵唇",
+   "props": "speech-frame,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 1208,
+      "endFrameExclusive": 1224,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     1209
+    ]
+   }
+  },
+  {
+   "shotId": "s031",
+   "startFrame": 1224,
+   "endFrameExclusive": 1244,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1224 叉腰睁眼；f1233 闭眼、手放胸前",
+   "props": "hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 1224,
+      "endFrameExclusive": 1244,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     1229,
+     1233
+    ]
+   }
+  },
+  {
+   "shotId": "s032",
+   "startFrame": 1244,
+   "endFrameExclusive": 1281,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1244 一手持帽、一手指鸽气泡",
+   "props": "hat,pigeon-bubble",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1250,
+     1256,
+     1262,
+     1268,
+     1274,
+     1280
+    ],
+    "holds": [
+     {
+      "startFrame": 1244,
+      "endFrameExclusive": 1250,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1250,
+      "endFrameExclusive": 1256,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1256,
+      "endFrameExclusive": 1262,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1262,
+      "endFrameExclusive": 1268,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1268,
+      "endFrameExclusive": 1274,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1274,
+      "endFrameExclusive": 1280,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1280,
+      "endFrameExclusive": 1281,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s033",
+   "startFrame": 1281,
+   "endFrameExclusive": 1308,
+   "sourceRoles": [],
+   "sourceAction": "f1281 人物不再可见、帽独立；f1288 帽上白烟展开",
+   "props": "hat,smoke",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s034",
+   "startFrame": 1308,
+   "endFrameExclusive": 1328,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f1308 金色气泡内头像；f1318 另一气泡出现；手掩嘴、嘴开",
+   "props": "speech-frame",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 1308,
+      "endFrameExclusive": 1328,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     1318
+    ]
+   }
+  },
+  {
+   "shotId": "s035",
+   "startFrame": 1328,
+   "endFrameExclusive": 1401,
+   "sourceRoles": [],
+   "sourceAction": "f1328 鸭与设计字",
+   "props": "duck,design-text",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s036",
+   "startFrame": 1401,
+   "endFrameExclusive": 1467,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f1401 侧面持杯到嘴旁；嘴与杯遮挡交界",
+   "props": "cup,cup-string",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1402,
+     1408,
+     1414,
+     1420,
+     1426,
+     1432,
+     1438,
+     1444,
+     1450,
+     1456,
+     1462
+    ],
+    "holds": [
+     {
+      "startFrame": 1401,
+      "endFrameExclusive": 1402,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1402,
+      "endFrameExclusive": 1408,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1408,
+      "endFrameExclusive": 1414,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1414,
+      "endFrameExclusive": 1420,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1420,
+      "endFrameExclusive": 1426,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1426,
+      "endFrameExclusive": 1432,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1432,
+      "endFrameExclusive": 1438,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1438,
+      "endFrameExclusive": 1444,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1444,
+      "endFrameExclusive": 1450,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1450,
+      "endFrameExclusive": 1456,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1456,
+      "endFrameExclusive": 1462,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1462,
+      "endFrameExclusive": 1467,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s037",
+   "startFrame": 1467,
+   "endFrameExclusive": 1543,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1467 闭眼、杯贴耳侧",
+   "props": "cup,cup-string,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1472,
+     1478,
+     1484,
+     1490,
+     1496,
+     1502,
+     1508,
+     1514,
+     1520,
+     1526,
+     1532,
+     1538
+    ],
+    "holds": [
+     {
+      "startFrame": 1467,
+      "endFrameExclusive": 1472,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1472,
+      "endFrameExclusive": 1478,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1478,
+      "endFrameExclusive": 1484,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1484,
+      "endFrameExclusive": 1490,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1490,
+      "endFrameExclusive": 1496,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1496,
+      "endFrameExclusive": 1502,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1502,
+      "endFrameExclusive": 1508,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1508,
+      "endFrameExclusive": 1514,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1514,
+      "endFrameExclusive": 1520,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1520,
+      "endFrameExclusive": 1526,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1526,
+      "endFrameExclusive": 1532,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1532,
+      "endFrameExclusive": 1538,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1538,
+      "endFrameExclusive": 1543,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s038",
+   "startFrame": 1543,
+   "endFrameExclusive": 1585,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f1543 杯离嘴，仍握杯",
+   "props": "cup,cup-string",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1547,
+     1553,
+     1559,
+     1565,
+     1571,
+     1577,
+     1583
+    ],
+    "holds": [
+     {
+      "startFrame": 1543,
+      "endFrameExclusive": 1547,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1547,
+      "endFrameExclusive": 1553,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1553,
+      "endFrameExclusive": 1559,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1559,
+      "endFrameExclusive": 1565,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1565,
+      "endFrameExclusive": 1571,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1571,
+      "endFrameExclusive": 1577,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1577,
+      "endFrameExclusive": 1583,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1583,
+      "endFrameExclusive": 1585,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s039",
+   "startFrame": 1585,
+   "endFrameExclusive": 1631,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1585 持杯、另一臂展开",
+   "props": "cup,cup-string,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1586,
+     1592,
+     1598,
+     1604,
+     1610,
+     1616,
+     1622,
+     1628
+    ],
+    "holds": [
+     {
+      "startFrame": 1585,
+      "endFrameExclusive": 1586,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1586,
+      "endFrameExclusive": 1592,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1592,
+      "endFrameExclusive": 1598,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1598,
+      "endFrameExclusive": 1604,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1604,
+      "endFrameExclusive": 1610,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1610,
+      "endFrameExclusive": 1616,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1616,
+      "endFrameExclusive": 1622,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1622,
+      "endFrameExclusive": 1628,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1628,
+      "endFrameExclusive": 1631,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s040",
+   "startFrame": 1631,
+   "endFrameExclusive": 1708,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f1631 两端杯线，狗在中间",
+   "props": "cup,cup-string,dog,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1637,
+     1643,
+     1649,
+     1655,
+     1661,
+     1667,
+     1673,
+     1679,
+     1685,
+     1691,
+     1697,
+     1703
+    ],
+    "holds": [
+     {
+      "startFrame": 1631,
+      "endFrameExclusive": 1637,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1637,
+      "endFrameExclusive": 1643,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1643,
+      "endFrameExclusive": 1649,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1649,
+      "endFrameExclusive": 1655,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1655,
+      "endFrameExclusive": 1661,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1661,
+      "endFrameExclusive": 1667,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1667,
+      "endFrameExclusive": 1673,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1673,
+      "endFrameExclusive": 1679,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1679,
+      "endFrameExclusive": 1685,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1685,
+      "endFrameExclusive": 1691,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1691,
+      "endFrameExclusive": 1697,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1697,
+      "endFrameExclusive": 1703,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1703,
+      "endFrameExclusive": 1708,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s041",
+   "startFrame": 1708,
+   "endFrameExclusive": 1776,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f1726 侧头像闭眼；f1732 侧头像睁眼；f1749 右侧头像出现、睁眼圆嘴；f1766 闭眼；f1772 睁眼",
+   "props": "portrait-frame,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1714,
+     1720,
+     1738,
+     1744,
+     1750,
+     1754,
+     1756,
+     1760,
+     1762,
+     1768,
+     1774
+    ],
+    "holds": [
+     {
+      "startFrame": 1708,
+      "endFrameExclusive": 1714,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1714,
+      "endFrameExclusive": 1720,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1720,
+      "endFrameExclusive": 1738,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1738,
+      "endFrameExclusive": 1744,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1744,
+      "endFrameExclusive": 1750,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1750,
+      "endFrameExclusive": 1754,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1754,
+      "endFrameExclusive": 1756,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1756,
+      "endFrameExclusive": 1760,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1760,
+      "endFrameExclusive": 1762,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1762,
+      "endFrameExclusive": 1768,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1768,
+      "endFrameExclusive": 1774,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1774,
+      "endFrameExclusive": 1776,
+      "phase": "B"
+     }
+    ],
+    "layerSchedules": {
+     "magician": {
+      "range": [
+       1708,
+       1776
+      ],
+      "boilFrames": [
+       1714,
+       1720,
+       1738,
+       1744,
+       1750,
+       1756,
+       1762,
+       1768,
+       1774
+      ],
+      "holds": [
+       {
+        "startFrame": 1708,
+        "endFrameExclusive": 1714,
+        "phase": "A"
+       },
+       {
+        "startFrame": 1714,
+        "endFrameExclusive": 1720,
+        "phase": "B"
+       },
+       {
+        "startFrame": 1720,
+        "endFrameExclusive": 1738,
+        "phase": "A"
+       },
+       {
+        "startFrame": 1738,
+        "endFrameExclusive": 1744,
+        "phase": "B"
+       },
+       {
+        "startFrame": 1744,
+        "endFrameExclusive": 1750,
+        "phase": "A"
+       },
+       {
+        "startFrame": 1750,
+        "endFrameExclusive": 1756,
+        "phase": "B"
+       },
+       {
+        "startFrame": 1756,
+        "endFrameExclusive": 1762,
+        "phase": "A"
+       },
+       {
+        "startFrame": 1762,
+        "endFrameExclusive": 1768,
+        "phase": "B"
+       },
+       {
+        "startFrame": 1768,
+        "endFrameExclusive": 1774,
+        "phase": "A"
+       },
+       {
+        "startFrame": 1774,
+        "endFrameExclusive": 1776,
+        "phase": "B"
+       }
+      ],
+      "poseChanges": [
+       1726,
+       1732
+      ]
+     },
+     "casual": {
+      "range": [
+       1749,
+       1776
+      ],
+      "boilFrames": [
+       1754,
+       1760
+      ],
+      "holds": [
+       {
+        "startFrame": 1749,
+        "endFrameExclusive": 1754,
+        "phase": "A"
+       },
+       {
+        "startFrame": 1754,
+        "endFrameExclusive": 1760,
+        "phase": "B"
+       },
+       {
+        "startFrame": 1760,
+        "endFrameExclusive": 1776,
+        "phase": "A"
+       }
+      ],
+      "poseChanges": [
+       1766,
+       1772
+      ]
+     }
+    },
+    "poseChangeFrames": [
+     1726,
+     1732,
+     1749,
+     1766,
+     1772
+    ]
+   }
+  },
+  {
+   "shotId": "s042",
+   "startFrame": 1776,
+   "endFrameExclusive": 1850,
+   "sourceRoles": [],
+   "sourceAction": "f1824 由正面到翻滚姿态",
+   "props": "dog",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s043",
+   "startFrame": 1850,
+   "endFrameExclusive": 1887,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1850 收指；f1851 手部拉伸过渡；f1854 收回；f1857 球在掌中；f1863 手向下离出；f1865 挥臂残像；f1868 向上挥；f1871 开掌、球与手分离；f1875 手向下退；f1881 画面只剩球；手已不可见",
+   "props": "tennis-ball",
+   "boil": {
+    "status": "source-only-D7",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 1850,
+      "endFrameExclusive": 1887,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     1851,
+     1854,
+     1857,
+     1863,
+     1865,
+     1868,
+     1871,
+     1875,
+     1878,
+     1881
+    ]
+   }
+  },
+  {
+   "shotId": "s044",
+   "startFrame": 1887,
+   "endFrameExclusive": 1930,
+   "sourceRoles": [],
+   "sourceAction": "网球横飞、速度线",
+   "props": "tennis-ball,speed-lines",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s045",
+   "startFrame": 1930,
+   "endFrameExclusive": 2007,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f1930 全身与狗",
+   "props": "dog,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     1936,
+     1942,
+     1948,
+     1954,
+     1960,
+     1966,
+     1972,
+     1978,
+     1984,
+     1990,
+     1996,
+     2002
+    ],
+    "holds": [
+     {
+      "startFrame": 1930,
+      "endFrameExclusive": 1936,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1936,
+      "endFrameExclusive": 1942,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1942,
+      "endFrameExclusive": 1948,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1948,
+      "endFrameExclusive": 1954,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1954,
+      "endFrameExclusive": 1960,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1960,
+      "endFrameExclusive": 1966,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1966,
+      "endFrameExclusive": 1972,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1972,
+      "endFrameExclusive": 1978,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1978,
+      "endFrameExclusive": 1984,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1984,
+      "endFrameExclusive": 1990,
+      "phase": "B"
+     },
+     {
+      "startFrame": 1990,
+      "endFrameExclusive": 1996,
+      "phase": "A"
+     },
+     {
+      "startFrame": 1996,
+      "endFrameExclusive": 2002,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2002,
+      "endFrameExclusive": 2007,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s046",
+   "startFrame": 2007,
+   "endFrameExclusive": 2042,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f2007 闭眼大笑",
+   "props": "portrait-frame",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2013,
+     2019,
+     2025,
+     2031,
+     2037
+    ],
+    "holds": [
+     {
+      "startFrame": 2007,
+      "endFrameExclusive": 2013,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2013,
+      "endFrameExclusive": 2019,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2019,
+      "endFrameExclusive": 2025,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2025,
+      "endFrameExclusive": 2031,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2031,
+      "endFrameExclusive": 2037,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2037,
+      "endFrameExclusive": 2042,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s047",
+   "startFrame": 2042,
+   "endFrameExclusive": 2081,
+   "sourceRoles": [],
+   "sourceAction": "狗头像",
+   "props": "dog,portrait-frame",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s048",
+   "startFrame": 2081,
+   "endFrameExclusive": 2127,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f2081 闭眼笑",
+   "props": "rabbit,duck-print",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2087,
+     2093,
+     2099,
+     2105,
+     2111,
+     2117,
+     2123
+    ],
+    "holds": [
+     {
+      "startFrame": 2081,
+      "endFrameExclusive": 2087,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2087,
+      "endFrameExclusive": 2093,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2093,
+      "endFrameExclusive": 2099,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2099,
+      "endFrameExclusive": 2105,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2105,
+      "endFrameExclusive": 2111,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2111,
+      "endFrameExclusive": 2117,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2117,
+      "endFrameExclusive": 2123,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2123,
+      "endFrameExclusive": 2127,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s049",
+   "startFrame": 2127,
+   "endFrameExclusive": 2169,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f2139 侧脸睁眼入场；f2147 闭眼风动；f2151 睁眼；f2157 再次闭眼",
+   "props": "hat,petals",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2164
+    ],
+    "holds": [
+     {
+      "startFrame": 2127,
+      "endFrameExclusive": 2164,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2164,
+      "endFrameExclusive": 2169,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": [
+     2139,
+     2143,
+     2147,
+     2151,
+     2155,
+     2157,
+     2159
+    ]
+   }
+  },
+  {
+   "shotId": "s050",
+   "startFrame": 2169,
+   "endFrameExclusive": 2197,
+   "sourceRoles": [],
+   "sourceAction": "f2169 仅花瓣文字",
+   "props": "petals",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s051",
+   "startFrame": 2197,
+   "endFrameExclusive": 2235,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f2197 摊掌；f2205 闭眼；f2208 睁眼、花瓣落掌；f2213 手转侧；f2216 合手；f2222 手部白色拖影；f2224 捏郁金香",
+   "props": "tulip,petals,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2204,
+     2212,
+     2220,
+     2228
+    ],
+    "holds": [
+     {
+      "startFrame": 2197,
+      "endFrameExclusive": 2204,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2204,
+      "endFrameExclusive": 2212,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2212,
+      "endFrameExclusive": 2220,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2220,
+      "endFrameExclusive": 2228,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2228,
+      "endFrameExclusive": 2235,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     2205,
+     2208,
+     2213,
+     2216,
+     2222,
+     2224
+    ]
+   }
+  },
+  {
+   "shotId": "s052",
+   "startFrame": 2235,
+   "endFrameExclusive": 2314,
+   "sourceRoles": [],
+   "sourceAction": "f2235 切无人物花瓣空镜；f2277 第一朵；f2286 第二朵；f2296 第三朵；f2304 第四朵",
+   "props": "tulip",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s053",
+   "startFrame": 2314,
+   "endFrameExclusive": 2367,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f2314 手持花束",
+   "props": "tulip,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2320,
+     2326,
+     2332,
+     2338,
+     2344,
+     2350,
+     2356,
+     2362
+    ],
+    "holds": [
+     {
+      "startFrame": 2314,
+      "endFrameExclusive": 2320,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2320,
+      "endFrameExclusive": 2326,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2326,
+      "endFrameExclusive": 2332,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2332,
+      "endFrameExclusive": 2338,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2338,
+      "endFrameExclusive": 2344,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2344,
+      "endFrameExclusive": 2350,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2350,
+      "endFrameExclusive": 2356,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2356,
+      "endFrameExclusive": 2362,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2362,
+      "endFrameExclusive": 2367,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s054",
+   "startFrame": 2367,
+   "endFrameExclusive": 2401,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f2367 前递黄色花近景",
+   "props": "tulip,hat",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2373,
+     2379,
+     2385,
+     2391,
+     2397
+    ],
+    "holds": [
+     {
+      "startFrame": 2367,
+      "endFrameExclusive": 2373,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2373,
+      "endFrameExclusive": 2379,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2379,
+      "endFrameExclusive": 2385,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2385,
+      "endFrameExclusive": 2391,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2391,
+      "endFrameExclusive": 2397,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2397,
+      "endFrameExclusive": 2401,
+      "phase": "B"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s055",
+   "startFrame": 2401,
+   "endFrameExclusive": 2455,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f2401 睁眼圆嘴、持花；f2410 花变大、嘴张宽；f2419 涡旋眼；f2427 紧闭眼；f2428 白烟开始；f2430 遮脸；f2432 烟完全遮住角色核心；f2434 闭眼，蓝背牌从烟露出；f2437 烟散、牌背清晰；f2440 单眼闭、圆嘴；f2448 双眼开、圆嘴",
+   "props": "tulip,card-back,smoke",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 2401,
+      "endFrameExclusive": 2455,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": [
+     2410,
+     2419,
+     2427,
+     2434,
+     2440,
+     2448
+    ]
+   }
+  },
+  {
+   "shotId": "s056",
+   "startFrame": 2455,
+   "endFrameExclusive": 2472,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f2455 红心J正面；散发角色裸手持",
+   "props": "card-J",
+   "boil": {
+    "status": "measured",
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 2455,
+      "endFrameExclusive": 2472,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s057",
+   "startFrame": 2472,
+   "endFrameExclusive": 2628,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "魔术师全身杂耍、音乐署名；实际相位切换帧 2472,2477,2482,2486,2490,2494,2500,2504,2508,2512,2516,2519,2522,2526,2532,2536,2541,2544,2548,2552,2556,2560,2564,2567,2570,2574,2580,2584,2589,2592,2596,2600,2604,2608,2612,2615,2618,2622；详见pose-events.csv（闭眼/半睁/遮脸独立）",
+   "props": "juggle-balls,hat,paper-frame,credits",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 2472,
+      "endFrameExclusive": 2477,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2477,
+      "endFrameExclusive": 2482,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 2482,
+      "endFrameExclusive": 2486,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 2486,
+      "endFrameExclusive": 2490,
+      "phase": "A",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 2490,
+      "endFrameExclusive": 2494,
+      "phase": "A",
+      "poseSegment": 4
+     },
+     {
+      "startFrame": 2494,
+      "endFrameExclusive": 2500,
+      "phase": "A",
+      "poseSegment": 5
+     },
+     {
+      "startFrame": 2500,
+      "endFrameExclusive": 2504,
+      "phase": "A",
+      "poseSegment": 6
+     },
+     {
+      "startFrame": 2504,
+      "endFrameExclusive": 2508,
+      "phase": "A",
+      "poseSegment": 7
+     },
+     {
+      "startFrame": 2508,
+      "endFrameExclusive": 2512,
+      "phase": "A",
+      "poseSegment": 8
+     },
+     {
+      "startFrame": 2512,
+      "endFrameExclusive": 2516,
+      "phase": "A",
+      "poseSegment": 9
+     },
+     {
+      "startFrame": 2516,
+      "endFrameExclusive": 2519,
+      "phase": "A",
+      "poseSegment": 10
+     },
+     {
+      "startFrame": 2519,
+      "endFrameExclusive": 2522,
+      "phase": "A",
+      "poseSegment": 11
+     },
+     {
+      "startFrame": 2522,
+      "endFrameExclusive": 2526,
+      "phase": "A",
+      "poseSegment": 12
+     },
+     {
+      "startFrame": 2526,
+      "endFrameExclusive": 2532,
+      "phase": "A",
+      "poseSegment": 13
+     },
+     {
+      "startFrame": 2532,
+      "endFrameExclusive": 2536,
+      "phase": "A",
+      "poseSegment": 14
+     },
+     {
+      "startFrame": 2536,
+      "endFrameExclusive": 2541,
+      "phase": "A",
+      "poseSegment": 15
+     },
+     {
+      "startFrame": 2541,
+      "endFrameExclusive": 2544,
+      "phase": "A",
+      "poseSegment": 16
+     },
+     {
+      "startFrame": 2544,
+      "endFrameExclusive": 2548,
+      "phase": "A",
+      "poseSegment": 17
+     },
+     {
+      "startFrame": 2548,
+      "endFrameExclusive": 2552,
+      "phase": "A",
+      "poseSegment": 18
+     },
+     {
+      "startFrame": 2552,
+      "endFrameExclusive": 2556,
+      "phase": "A",
+      "poseSegment": 19
+     },
+     {
+      "startFrame": 2556,
+      "endFrameExclusive": 2560,
+      "phase": "A",
+      "poseSegment": 20
+     },
+     {
+      "startFrame": 2560,
+      "endFrameExclusive": 2564,
+      "phase": "A",
+      "poseSegment": 21
+     },
+     {
+      "startFrame": 2564,
+      "endFrameExclusive": 2567,
+      "phase": "A",
+      "poseSegment": 22
+     },
+     {
+      "startFrame": 2567,
+      "endFrameExclusive": 2570,
+      "phase": "A",
+      "poseSegment": 23
+     },
+     {
+      "startFrame": 2570,
+      "endFrameExclusive": 2574,
+      "phase": "A",
+      "poseSegment": 24
+     },
+     {
+      "startFrame": 2574,
+      "endFrameExclusive": 2580,
+      "phase": "A",
+      "poseSegment": 25
+     },
+     {
+      "startFrame": 2580,
+      "endFrameExclusive": 2584,
+      "phase": "A",
+      "poseSegment": 26
+     },
+     {
+      "startFrame": 2584,
+      "endFrameExclusive": 2589,
+      "phase": "A",
+      "poseSegment": 27
+     },
+     {
+      "startFrame": 2589,
+      "endFrameExclusive": 2592,
+      "phase": "A",
+      "poseSegment": 28
+     },
+     {
+      "startFrame": 2592,
+      "endFrameExclusive": 2596,
+      "phase": "A",
+      "poseSegment": 29
+     },
+     {
+      "startFrame": 2596,
+      "endFrameExclusive": 2600,
+      "phase": "A",
+      "poseSegment": 30
+     },
+     {
+      "startFrame": 2600,
+      "endFrameExclusive": 2604,
+      "phase": "A",
+      "poseSegment": 31
+     },
+     {
+      "startFrame": 2604,
+      "endFrameExclusive": 2608,
+      "phase": "A",
+      "poseSegment": 32
+     },
+     {
+      "startFrame": 2608,
+      "endFrameExclusive": 2612,
+      "phase": "A",
+      "poseSegment": 33
+     },
+     {
+      "startFrame": 2612,
+      "endFrameExclusive": 2615,
+      "phase": "A",
+      "poseSegment": 34
+     },
+     {
+      "startFrame": 2615,
+      "endFrameExclusive": 2618,
+      "phase": "A",
+      "poseSegment": 35
+     },
+     {
+      "startFrame": 2618,
+      "endFrameExclusive": 2622,
+      "phase": "A",
+      "poseSegment": 36
+     },
+     {
+      "startFrame": 2622,
+      "endFrameExclusive": 2628,
+      "phase": "A",
+      "poseSegment": 37
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     2477,
+     2482,
+     2486,
+     2490,
+     2494,
+     2500,
+     2504,
+     2508,
+     2512,
+     2516,
+     2519,
+     2522,
+     2526,
+     2532,
+     2536,
+     2541,
+     2544,
+     2548,
+     2552,
+     2556,
+     2560,
+     2564,
+     2567,
+     2570,
+     2574,
+     2580,
+     2584,
+     2589,
+     2592,
+     2596,
+     2600,
+     2604,
+     2608,
+     2612,
+     2615,
+     2618,
+     2622
+    ]
+   }
+  },
+  {
+   "shotId": "s058",
+   "startFrame": 2628,
+   "endFrameExclusive": 2702,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "杂耍左侧近景、混音署名；实际相位切换帧 2628,2632,2637,2640,2644,2648,2652,2656,2660,2663,2666,2670,2676,2680,2685,2688,2692,2696,2700；详见pose-events.csv（闭眼/半睁/遮脸独立）",
+   "props": "juggle-balls,hat,paper-frame,credits",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 2628,
+      "endFrameExclusive": 2632,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2632,
+      "endFrameExclusive": 2637,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 2637,
+      "endFrameExclusive": 2640,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 2640,
+      "endFrameExclusive": 2644,
+      "phase": "A",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 2644,
+      "endFrameExclusive": 2648,
+      "phase": "A",
+      "poseSegment": 4
+     },
+     {
+      "startFrame": 2648,
+      "endFrameExclusive": 2652,
+      "phase": "A",
+      "poseSegment": 5
+     },
+     {
+      "startFrame": 2652,
+      "endFrameExclusive": 2656,
+      "phase": "A",
+      "poseSegment": 6
+     },
+     {
+      "startFrame": 2656,
+      "endFrameExclusive": 2660,
+      "phase": "A",
+      "poseSegment": 7
+     },
+     {
+      "startFrame": 2660,
+      "endFrameExclusive": 2663,
+      "phase": "A",
+      "poseSegment": 8
+     },
+     {
+      "startFrame": 2663,
+      "endFrameExclusive": 2666,
+      "phase": "A",
+      "poseSegment": 9
+     },
+     {
+      "startFrame": 2666,
+      "endFrameExclusive": 2670,
+      "phase": "A",
+      "poseSegment": 10
+     },
+     {
+      "startFrame": 2670,
+      "endFrameExclusive": 2676,
+      "phase": "A",
+      "poseSegment": 11
+     },
+     {
+      "startFrame": 2676,
+      "endFrameExclusive": 2680,
+      "phase": "A",
+      "poseSegment": 12
+     },
+     {
+      "startFrame": 2680,
+      "endFrameExclusive": 2685,
+      "phase": "A",
+      "poseSegment": 13
+     },
+     {
+      "startFrame": 2685,
+      "endFrameExclusive": 2688,
+      "phase": "A",
+      "poseSegment": 14
+     },
+     {
+      "startFrame": 2688,
+      "endFrameExclusive": 2692,
+      "phase": "A",
+      "poseSegment": 15
+     },
+     {
+      "startFrame": 2692,
+      "endFrameExclusive": 2696,
+      "phase": "A",
+      "poseSegment": 16
+     },
+     {
+      "startFrame": 2696,
+      "endFrameExclusive": 2700,
+      "phase": "A",
+      "poseSegment": 17
+     },
+     {
+      "startFrame": 2700,
+      "endFrameExclusive": 2702,
+      "phase": "A",
+      "poseSegment": 18
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     2632,
+     2637,
+     2640,
+     2644,
+     2648,
+     2652,
+     2656,
+     2660,
+     2663,
+     2666,
+     2670,
+     2676,
+     2680,
+     2685,
+     2688,
+     2692,
+     2696,
+     2700
+    ]
+   }
+  },
+  {
+   "shotId": "s059",
+   "startFrame": 2702,
+   "endFrameExclusive": 2785,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "杂耍右侧近景、视频署名；帘幕合上；实际相位切换帧 2702,2704,2708,2711,2714,2718,2724,2728,2733,2736,2740,2744,2748,2752,2756,2759,2762,2766；详见pose-events.csv（闭眼/半睁/遮脸独立）",
+   "props": "juggle-balls,hat,paper-frame,credits,curtain",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 2702,
+      "endFrameExclusive": 2704,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2704,
+      "endFrameExclusive": 2708,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 2708,
+      "endFrameExclusive": 2711,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 2711,
+      "endFrameExclusive": 2714,
+      "phase": "A",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 2714,
+      "endFrameExclusive": 2718,
+      "phase": "A",
+      "poseSegment": 4
+     },
+     {
+      "startFrame": 2718,
+      "endFrameExclusive": 2724,
+      "phase": "A",
+      "poseSegment": 5
+     },
+     {
+      "startFrame": 2724,
+      "endFrameExclusive": 2728,
+      "phase": "A",
+      "poseSegment": 6
+     },
+     {
+      "startFrame": 2728,
+      "endFrameExclusive": 2733,
+      "phase": "A",
+      "poseSegment": 7
+     },
+     {
+      "startFrame": 2733,
+      "endFrameExclusive": 2736,
+      "phase": "A",
+      "poseSegment": 8
+     },
+     {
+      "startFrame": 2736,
+      "endFrameExclusive": 2740,
+      "phase": "A",
+      "poseSegment": 9
+     },
+     {
+      "startFrame": 2740,
+      "endFrameExclusive": 2744,
+      "phase": "A",
+      "poseSegment": 10
+     },
+     {
+      "startFrame": 2744,
+      "endFrameExclusive": 2748,
+      "phase": "A",
+      "poseSegment": 11
+     },
+     {
+      "startFrame": 2748,
+      "endFrameExclusive": 2752,
+      "phase": "A",
+      "poseSegment": 12
+     },
+     {
+      "startFrame": 2752,
+      "endFrameExclusive": 2756,
+      "phase": "A",
+      "poseSegment": 13
+     },
+     {
+      "startFrame": 2756,
+      "endFrameExclusive": 2759,
+      "phase": "A",
+      "poseSegment": 14
+     },
+     {
+      "startFrame": 2759,
+      "endFrameExclusive": 2762,
+      "phase": "A",
+      "poseSegment": 15
+     },
+     {
+      "startFrame": 2762,
+      "endFrameExclusive": 2766,
+      "phase": "A",
+      "poseSegment": 16
+     },
+     {
+      "startFrame": 2766,
+      "endFrameExclusive": 2772,
+      "phase": "A",
+      "poseSegment": 17
+     },
+     {
+      "startFrame": 2772,
+      "endFrameExclusive": 2776,
+      "phase": "A",
+      "poseSegment": 18
+     },
+     {
+      "startFrame": 2776,
+      "endFrameExclusive": 2777,
+      "phase": "A",
+      "poseSegment": 19
+     },
+     {
+      "startFrame": 2777,
+      "endFrameExclusive": 2785,
+      "phase": "A",
+      "poseSegment": 19
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     2704,
+     2708,
+     2711,
+     2714,
+     2718,
+     2724,
+     2728,
+     2733,
+     2736,
+     2740,
+     2744,
+     2748,
+     2752,
+     2756,
+     2759,
+     2762,
+     2766,
+     2772,
+     2776
+    ]
+   }
+  },
+  {
+   "shotId": "s060",
+   "startFrame": 2785,
+   "endFrameExclusive": 2939,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f2785 沙发并睡",
+   "props": "sofa,pillows,cabinet,plant,dog,rabbit,duck,hat,sleep-mark",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2786,
+     2792,
+     2798,
+     2804,
+     2810,
+     2816,
+     2822,
+     2828,
+     2834,
+     2840,
+     2846,
+     2852,
+     2858,
+     2864,
+     2870,
+     2876,
+     2882,
+     2888,
+     2894,
+     2900,
+     2906,
+     2912,
+     2918,
+     2924,
+     2930,
+     2936
+    ],
+    "holds": [
+     {
+      "startFrame": 2785,
+      "endFrameExclusive": 2786,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2786,
+      "endFrameExclusive": 2792,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2792,
+      "endFrameExclusive": 2798,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2798,
+      "endFrameExclusive": 2804,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2804,
+      "endFrameExclusive": 2810,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2810,
+      "endFrameExclusive": 2816,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2816,
+      "endFrameExclusive": 2822,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2822,
+      "endFrameExclusive": 2828,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2828,
+      "endFrameExclusive": 2834,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2834,
+      "endFrameExclusive": 2840,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2840,
+      "endFrameExclusive": 2846,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2846,
+      "endFrameExclusive": 2852,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2852,
+      "endFrameExclusive": 2858,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2858,
+      "endFrameExclusive": 2864,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2864,
+      "endFrameExclusive": 2870,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2870,
+      "endFrameExclusive": 2876,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2876,
+      "endFrameExclusive": 2882,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2882,
+      "endFrameExclusive": 2888,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2888,
+      "endFrameExclusive": 2894,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2894,
+      "endFrameExclusive": 2900,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2900,
+      "endFrameExclusive": 2906,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2906,
+      "endFrameExclusive": 2912,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2912,
+      "endFrameExclusive": 2918,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2918,
+      "endFrameExclusive": 2924,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2924,
+      "endFrameExclusive": 2930,
+      "phase": "A"
+     },
+     {
+      "startFrame": 2930,
+      "endFrameExclusive": 2936,
+      "phase": "B"
+     },
+     {
+      "startFrame": 2936,
+      "endFrameExclusive": 2939,
+      "phase": "A"
+     }
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s061",
+   "startFrame": 2939,
+   "endFrameExclusive": 2970,
+   "sourceRoles": [
+    "magician"
+   ],
+   "sourceAction": "f2939 睡脸近景；f2943 半睁眼；f2947 进一步睁开；f2951 完全睁眼、看向旁边",
+   "props": "portrait-frame",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 2939,
+      "endFrameExclusive": 2943,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2943,
+      "endFrameExclusive": 2947,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 2947,
+      "endFrameExclusive": 2951,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 2951,
+      "endFrameExclusive": 2970,
+      "phase": "A",
+      "poseSegment": 3
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     2943,
+     2947,
+     2951
+    ]
+   }
+  },
+  {
+   "shotId": "s062",
+   "startFrame": 2970,
+   "endFrameExclusive": 3003,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f2970 散发角色睡脸近景；全尺寸复核没有魔术师",
+   "props": "portrait-frame",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     2976,
+     2982,
+     2988,
+     2994,
+     3000
+    ],
+    "holds": [
+     {
+      "startFrame": 2970,
+      "endFrameExclusive": 2976,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2976,
+      "endFrameExclusive": 2982,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2982,
+      "endFrameExclusive": 2988,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2988,
+      "endFrameExclusive": 2994,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 2994,
+      "endFrameExclusive": 3000,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3000,
+      "endFrameExclusive": 3003,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     2976,
+     2982,
+     2988,
+     2994,
+     3000
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s063",
+   "startFrame": 3003,
+   "endFrameExclusive": 3081,
+   "sourceRoles": [
+    "casual",
+    "magician"
+   ],
+   "sourceAction": "f3003 白手套搭在裸手上；f3012 手向左上滑开；指尖附近仍接近；f3021 两手明确分离；f3029 白手套完全出框；f3038 框与裸手一起缩小；f3042 压成窄条；f3046 框与手完全消失",
+   "props": "portrait-frame",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 3003,
+      "endFrameExclusive": 3012,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3012,
+      "endFrameExclusive": 3021,
+      "phase": "B",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 3021,
+      "endFrameExclusive": 3029,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 3029,
+      "endFrameExclusive": 3038,
+      "phase": "B",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 3038,
+      "endFrameExclusive": 3042,
+      "phase": "B",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 3042,
+      "endFrameExclusive": 3046,
+      "phase": "B",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 3046,
+      "endFrameExclusive": 3081,
+      "phase": "B",
+      "poseSegment": 3
+     }
+    ],
+    "phaseSwitchFrames": [
+     3012,
+     3021,
+     3029
+    ],
+    "poseChangeFrames": [
+     3012,
+     3021,
+     3029
+    ]
+   }
+  },
+  {
+   "shotId": "s064",
+   "startFrame": 3081,
+   "endFrameExclusive": 3239,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3081 闭幕覆盖；f3083 帘幕缝出现独睡散发角色；f3085 继续展开；f3087 帘幕完全打开",
+   "props": "curtain,sofa,pillows,cabinet,plant,dog,rabbit,duck,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3087,
+     3093,
+     3099,
+     3105,
+     3111,
+     3117,
+     3123,
+     3129,
+     3135,
+     3141,
+     3147,
+     3153,
+     3159,
+     3165,
+     3171,
+     3177,
+     3183,
+     3189,
+     3195,
+     3201,
+     3207,
+     3213,
+     3219,
+     3225,
+     3231,
+     3237
+    ],
+    "holds": [
+     {
+      "startFrame": 3081,
+      "endFrameExclusive": 3083,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3083,
+      "endFrameExclusive": 3085,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3085,
+      "endFrameExclusive": 3087,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3087,
+      "endFrameExclusive": 3093,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3093,
+      "endFrameExclusive": 3099,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3099,
+      "endFrameExclusive": 3105,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3105,
+      "endFrameExclusive": 3111,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3111,
+      "endFrameExclusive": 3117,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3117,
+      "endFrameExclusive": 3123,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3123,
+      "endFrameExclusive": 3129,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3129,
+      "endFrameExclusive": 3135,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3135,
+      "endFrameExclusive": 3141,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3141,
+      "endFrameExclusive": 3147,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3147,
+      "endFrameExclusive": 3153,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3153,
+      "endFrameExclusive": 3159,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3159,
+      "endFrameExclusive": 3165,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3165,
+      "endFrameExclusive": 3171,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3171,
+      "endFrameExclusive": 3177,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3177,
+      "endFrameExclusive": 3183,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3183,
+      "endFrameExclusive": 3189,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3189,
+      "endFrameExclusive": 3195,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3195,
+      "endFrameExclusive": 3201,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3201,
+      "endFrameExclusive": 3207,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3207,
+      "endFrameExclusive": 3213,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3213,
+      "endFrameExclusive": 3219,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3219,
+      "endFrameExclusive": 3225,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3225,
+      "endFrameExclusive": 3231,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3231,
+      "endFrameExclusive": 3237,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3237,
+      "endFrameExclusive": 3239,
+      "phase": "A",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3087,
+     3093,
+     3099,
+     3105,
+     3111,
+     3117,
+     3123,
+     3129,
+     3135,
+     3141,
+     3147,
+     3153,
+     3159,
+     3165,
+     3171,
+     3177,
+     3183,
+     3189,
+     3195,
+     3201,
+     3207,
+     3213,
+     3219,
+     3225,
+     3231,
+     3237
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s065",
+   "startFrame": 3239,
+   "endFrameExclusive": 3260,
+   "sourceRoles": [],
+   "sourceAction": "狗睡头像",
+   "props": "dog,portrait-frame,butterfly",
+   "boil": {
+    "status": "无人物",
+    "phases": [],
+    "boilFrames": [],
+    "holds": [],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s066",
+   "startFrame": 3260,
+   "endFrameExclusive": 3284,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "头顶鸭头像、少量角色头发",
+   "props": "duck,portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3266,
+     3272,
+     3278
+    ],
+    "holds": [
+     {
+      "startFrame": 3260,
+      "endFrameExclusive": 3266,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3266,
+      "endFrameExclusive": 3272,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3272,
+      "endFrameExclusive": 3278,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3278,
+      "endFrameExclusive": 3284,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3266,
+     3272,
+     3278
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s067",
+   "startFrame": 3284,
+   "endFrameExclusive": 3305,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "膝上兔头像、角色衣服腿局部",
+   "props": "rabbit,portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3290,
+     3296,
+     3302
+    ],
+    "holds": [
+     {
+      "startFrame": 3284,
+      "endFrameExclusive": 3290,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3290,
+      "endFrameExclusive": 3296,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3296,
+      "endFrameExclusive": 3302,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3302,
+      "endFrameExclusive": 3305,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3290,
+     3296,
+     3302
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s068",
+   "startFrame": 3305,
+   "endFrameExclusive": 3321,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "散发角色睡头像",
+   "props": "portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3311,
+     3317
+    ],
+    "holds": [
+     {
+      "startFrame": 3305,
+      "endFrameExclusive": 3311,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3311,
+      "endFrameExclusive": 3317,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3317,
+      "endFrameExclusive": 3321,
+      "phase": "A",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3311,
+     3317
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s069",
+   "startFrame": 3321,
+   "endFrameExclusive": 3356,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3321 睡脸放大；f3328 半睁眼；f3335 睁眼看向画面左；f3342 闭眼；f3349 睁眼、头朝画面右",
+   "props": "duck,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 3321,
+      "endFrameExclusive": 3328,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3328,
+      "endFrameExclusive": 3335,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 3335,
+      "endFrameExclusive": 3342,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 3342,
+      "endFrameExclusive": 3349,
+      "phase": "A",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 3349,
+      "endFrameExclusive": 3356,
+      "phase": "A",
+      "poseSegment": 4
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     3328,
+     3335,
+     3342,
+     3349
+    ]
+   }
+  },
+  {
+   "shotId": "s070",
+   "startFrame": 3356,
+   "endFrameExclusive": 3397,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3356 沙发全景、偏向画面左；f3363 转向画面右；f3370 转向画面左；f3377 转向画面右；f3385 转向画面左",
+   "props": "sofa,pillows,cabinet,plant,dog,rabbit,duck,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 3356,
+      "endFrameExclusive": 3363,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3363,
+      "endFrameExclusive": 3370,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 3370,
+      "endFrameExclusive": 3377,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 3377,
+      "endFrameExclusive": 3385,
+      "phase": "A",
+      "poseSegment": 3
+     },
+     {
+      "startFrame": 3385,
+      "endFrameExclusive": 3397,
+      "phase": "A",
+      "poseSegment": 4
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     3363,
+     3370,
+     3377,
+     3385
+    ]
+   }
+  },
+  {
+   "shotId": "s071",
+   "startFrame": 3397,
+   "endFrameExclusive": 3478,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3397 右侧竖框、睁眼圆嘴；f3417 垂眼、闭嘴；f3438 半睁向下看；不等同睡眠闭眼；f3457 睁眼回望画面左",
+   "props": "portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [],
+    "holds": [
+     {
+      "startFrame": 3397,
+      "endFrameExclusive": 3417,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3417,
+      "endFrameExclusive": 3438,
+      "phase": "A",
+      "poseSegment": 1
+     },
+     {
+      "startFrame": 3438,
+      "endFrameExclusive": 3457,
+      "phase": "A",
+      "poseSegment": 2
+     },
+     {
+      "startFrame": 3457,
+      "endFrameExclusive": 3478,
+      "phase": "A",
+      "poseSegment": 3
+     }
+    ],
+    "phaseSwitchFrames": [],
+    "poseChangeFrames": [
+     3417,
+     3438,
+     3457
+    ]
+   }
+  },
+  {
+   "shotId": "s072",
+   "startFrame": 3478,
+   "endFrameExclusive": 3509,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3478 裸手已握蓝背牌；未见从桌面拾起全过程",
+   "props": "card-back,portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3484,
+     3490,
+     3496,
+     3502,
+     3508
+    ],
+    "holds": [
+     {
+      "startFrame": 3478,
+      "endFrameExclusive": 3484,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3484,
+      "endFrameExclusive": 3490,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3490,
+      "endFrameExclusive": 3496,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3496,
+      "endFrameExclusive": 3502,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3502,
+      "endFrameExclusive": 3508,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3508,
+      "endFrameExclusive": 3509,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3484,
+     3490,
+     3496,
+     3502,
+     3508
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s073",
+   "startFrame": 3509,
+   "endFrameExclusive": 3543,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3509 持牌遮口；嘴部不可判定，不补口型",
+   "props": "card-back,duck,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3515,
+     3521,
+     3527,
+     3533,
+     3539
+    ],
+    "holds": [
+     {
+      "startFrame": 3509,
+      "endFrameExclusive": 3515,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3515,
+      "endFrameExclusive": 3521,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3521,
+      "endFrameExclusive": 3527,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3527,
+      "endFrameExclusive": 3533,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3533,
+      "endFrameExclusive": 3539,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3539,
+      "endFrameExclusive": 3543,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3515,
+     3521,
+     3527,
+     3533,
+     3539
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s074",
+   "startFrame": 3543,
+   "endFrameExclusive": 3584,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3543 新鞋出门局部；头部在画外",
+   "props": "portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3546,
+     3552,
+     3558,
+     3564,
+     3570,
+     3576,
+     3582
+    ],
+    "holds": [
+     {
+      "startFrame": 3543,
+      "endFrameExclusive": 3546,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3546,
+      "endFrameExclusive": 3552,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3552,
+      "endFrameExclusive": 3558,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3558,
+      "endFrameExclusive": 3564,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3564,
+      "endFrameExclusive": 3570,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3570,
+      "endFrameExclusive": 3576,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3576,
+      "endFrameExclusive": 3582,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3582,
+      "endFrameExclusive": 3584,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3546,
+     3552,
+     3558,
+     3564,
+     3570,
+     3576,
+     3582
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s075",
+   "startFrame": 3584,
+   "endFrameExclusive": 3630,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3584 首次可见已扎钻头；扶卷；非完整扎发过程",
+   "props": "portrait-frame,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3590,
+     3596,
+     3602,
+     3608,
+     3614,
+     3620,
+     3626
+    ],
+    "holds": [
+     {
+      "startFrame": 3584,
+      "endFrameExclusive": 3590,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3590,
+      "endFrameExclusive": 3596,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3596,
+      "endFrameExclusive": 3602,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3602,
+      "endFrameExclusive": 3608,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3608,
+      "endFrameExclusive": 3614,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3614,
+      "endFrameExclusive": 3620,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3620,
+      "endFrameExclusive": 3626,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3626,
+      "endFrameExclusive": 3630,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3590,
+     3596,
+     3602,
+     3608,
+     3614,
+     3620,
+     3626
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s076",
+   "startFrame": 3630,
+   "endFrameExclusive": 3666,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3630 背向行走、斜包；发型延续",
+   "props": "bag,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3636,
+     3642,
+     3648,
+     3654,
+     3660
+    ],
+    "holds": [
+     {
+      "startFrame": 3630,
+      "endFrameExclusive": 3636,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3636,
+      "endFrameExclusive": 3642,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3642,
+      "endFrameExclusive": 3648,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3648,
+      "endFrameExclusive": 3654,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3654,
+      "endFrameExclusive": 3660,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3660,
+      "endFrameExclusive": 3666,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3636,
+     3642,
+     3648,
+     3654,
+     3660
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s077",
+   "startFrame": 3666,
+   "endFrameExclusive": 3698,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3666 张臂闭眼露齿笑；动物叠前景",
+   "props": "bag,rabbit,duck,dog,butterfly",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3672,
+     3678,
+     3684,
+     3690,
+     3696
+    ],
+    "holds": [
+     {
+      "startFrame": 3666,
+      "endFrameExclusive": 3672,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3672,
+      "endFrameExclusive": 3678,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3678,
+      "endFrameExclusive": 3684,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3684,
+      "endFrameExclusive": 3690,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3690,
+      "endFrameExclusive": 3696,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3696,
+      "endFrameExclusive": 3698,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3672,
+     3678,
+     3684,
+     3690,
+     3696
+    ],
+    "poseChangeFrames": []
+   }
+  },
+  {
+   "shotId": "s078",
+   "startFrame": 3698,
+   "endFrameExclusive": 3768,
+   "sourceRoles": [
+    "casual"
+   ],
+   "sourceAction": "f3698 卡套内红心A清晰正面；非手持；f3768 视频边界；末显示帧3767",
+   "props": "bag,card-holder,card-A,butterfly,credits",
+   "boil": {
+    "phases": [
+     "A",
+     "B"
+    ],
+    "boilFrames": [
+     3704,
+     3710,
+     3716,
+     3722,
+     3728,
+     3734,
+     3740,
+     3746,
+     3752,
+     3758,
+     3764
+    ],
+    "holds": [
+     {
+      "startFrame": 3698,
+      "endFrameExclusive": 3704,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3704,
+      "endFrameExclusive": 3710,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3710,
+      "endFrameExclusive": 3716,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3716,
+      "endFrameExclusive": 3722,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3722,
+      "endFrameExclusive": 3728,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3728,
+      "endFrameExclusive": 3734,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3734,
+      "endFrameExclusive": 3740,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3740,
+      "endFrameExclusive": 3746,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3746,
+      "endFrameExclusive": 3752,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3752,
+      "endFrameExclusive": 3758,
+      "phase": "B",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3758,
+      "endFrameExclusive": 3764,
+      "phase": "A",
+      "poseSegment": 0
+     },
+     {
+      "startFrame": 3764,
+      "endFrameExclusive": 3768,
+      "phase": "B",
+      "poseSegment": 0
+     }
+    ],
+    "phaseSwitchFrames": [
+     3704,
+     3710,
+     3716,
+     3722,
+     3728,
+     3734,
+     3740,
+     3746,
+     3752,
+     3758,
+     3764
+    ],
+    "poseChangeFrames": []
+   }
+  }
+ ]
+}

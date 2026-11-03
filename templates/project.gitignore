@@ -1,0 +1,16 @@
+# 放进你的「项目」仓库（不是本工作流仓库），防止误传受版权保护的素材和产物
+inputs/
+assets/
+output/
+reviews/**/*.png
+reviews/**/*.jpg
+reviews/**/*.gif
+reviews/**/*.mp4
+analysis/reference-frames/
+analysis/audit/*.f32
+*.mp4
+*.mov
+*.wav
+*.zip
+.tools/
+assets_temp/

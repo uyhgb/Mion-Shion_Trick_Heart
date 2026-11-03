@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "project": "{project-slug}",
+  "title": "{作品名}",
+  "skills": [
+    "trick-heart-pv",
+    "ai-handdrawn-video",
+    "pv-line-boil"
+  ],
+  "mode": "reference-pv-adaptation",
+  "song": {
+    "title": "トリックハート",
+    "artist": "MIMI feat. 重音テトSV",
+    "pvArt": "3774."
+  },
+  "work": {
+    "title": "{角色原作}",
+    "rightsHolder": "{权利方}"
+  },
+  "rights": "personal-non-commercial-fan-work",
+  "output": {
+    "size": "match-source",
+    "fps": "match-source-rational",
+    "frameMapping": "identity-1to1-after-pts-verification",
+    "audio": "original-stream-copy-two-step-mux",
+    "deliverables": [
+      "output/final.mp4",
+      "output/compare-source-vs-final.mp4",
+      "reviews/final-report.md"
+    ]
+  },
+  "castMapping": [
+    {
+      "sourceRole": "magician",
+      "characterId": "{角色A}",
+      "outfitId": "{服装A}"
+    },
+    {
+      "sourceRole": "casual",
+      "characterId": "{角色B}",
+      "outfitId": "{服装B}"
+    }
+  ],
+  "preserve": [
+    "source-background",
+    "source-japanese-lyrics-pixels",
+    "source-non-character-props",
+    "source-transitions",
+    "source-timeline",
+    "source-audio"
+  ],
+  "easterEggs": {
+    "inScope": [],
+    "deferred": []
+  },
+  "redLines": [
+    "no-audio-change",
+    "no-timeline-change",
+    "no-lyrics-copied-into-text-files",
+    "no-publishing",
+    "no-horizontal-flip-of-character-layers"
+  ],
+  "generation": {
+    "endToEndOnly": true,
+    "acceptance": "close-enough, not pixel-exact",
+    "maxAttemptsPerArt": 3,
+    "maxAttemptsPerMaster": 6
+  },
+  "stopPoints": [
+    {
+      "id": "SP1",
+      "after": "P1"
+    },
+    {
+      "id": "SP2",
+      "after": "P2"
+    },
+    {
+      "id": "SP3",
+      "after": "P3-A"
+    },
+    {
+      "id": "SP4",
+      "after": "P4"
+    },
+    {
+      "id": "SP4s",
+      "after": "P4s"
+    },
+    {
+      "id": "SP5",
+      "after": "P5"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D1",
+      "topic": "{主题}",
+      "decision": "{内容}",
+      "decidedBy": "author",
+      "decidedAt": "{阶段/日期}"
+    }
+  ],
+  "status": "planned"
+}

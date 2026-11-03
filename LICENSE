@@ -1,0 +1,47 @@
+This repository uses two licenses.
+
+================================================================
+1) Code and scripts (tools/, and any code blocks inside skills/)
+================================================================
+
+MIT License
+
+Copyright (c) 2026 the trick-heart-pv-workflow contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================
+2) Text and data (docs/, prompts/, templates/, examples/, data/, skills/*.md)
+================================================================
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt the material for any purpose, provided you give
+appropriate credit, link to this repository and the license, and indicate if
+changes were made.
+
+================================================================
+Not covered by either license
+================================================================
+
+The song, the official PV (images, animation, audio, lyrics), and all
+characters and their designs belong to their respective rights holders.
+This repository contains only descriptions and timing measurements of the PV;
+it does not grant any right to use the PV, the song, or the characters.

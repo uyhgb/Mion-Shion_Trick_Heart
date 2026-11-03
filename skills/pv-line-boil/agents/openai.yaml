@@ -1,0 +1,4 @@
+interface:
+  display_name: "线条抖动与质感还原"
+  short_description: "按源片实测抖动节奏，给替换人物加确定性 A/B 重描变体、平涂和线宽变化；不生图"
+  default_prompt: "使用 $pv-line-boil：先逐镜测抖动时刻表，再做三个样镜三联对比，等作者批准后再推广。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "魔术之心角色替换 PV"
+  short_description: "把トリックハート原PV的两位テト换成任意角色：拆镜、母版、分批生产、质感还原、交付"
+  default_prompt: "使用 $trick-heart-pv 和 $ai-handdrawn-video，先读进度看板与 AGENTS.md，复述当前阶段后按停顿点推进。"
